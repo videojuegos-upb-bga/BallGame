@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\informatica\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\informatica\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_BallGame.1016230344.00" t="ExcludeRecursive" />
+    <e p="C:\Users\informatica\Documents\BallGame" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -422,8 +424,11 @@
           <e p="AutoHide.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="Character.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="GroundCheck.cs" t="Include" />
           <e p="Navigator.cs" t="Include" />
           <e p="Obstacle.cs" t="Include" />
+          <e p="Strings.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -455,11 +460,12 @@
         </e>
       </e>
       <e p="BallGame.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_BallGame.742710772.00" t="ExcludeRecursive" />
   </component>
 </project>

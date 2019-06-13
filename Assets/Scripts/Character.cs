@@ -5,13 +5,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(AudioSource))]
 public class Character : MonoBehaviour
 {
     [Header("Velocidad de movimiento:")] [SerializeField] private float speed;
 
     [Header("Fuerza de salto")] [Tooltip("La fuerza debe ser una magnitud grande")]public float jumpForce;
+
+    //[Header("Audio Assets")] public AudioClip[] clips;
+
+    public AudioClip clipSaltar;
+    public AudioClip clipPerder;
+    public AudioClip clipGanar;
     
     private Rigidbody2D _rigidbody;
+    private AudioSource _audio;
     
     [HideInInspector]
     public float _distGround;
@@ -22,6 +30,7 @@ public class Character : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _audio = GetComponent<AudioSource>();
         isOnGround = false;
     }
 
@@ -58,13 +67,30 @@ public class Character : MonoBehaviour
         }
         else if (other.CompareTag("KillZone"))
         {
-            Scene escena = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(escena.name);
+            StartCoroutine(Perder());
         }
         else if (other.CompareTag("WinZone"))
         {
-            SceneManager.LoadScene("Titulo");
+            StartCoroutine(Ganar());
         }   
+    }
+
+    private IEnumerator Ganar()
+    {
+        _audio.clip = clipGanar;
+        _audio.Play();
+        yield return new WaitWhile(() => _audio.isPlaying);
+        SceneManager.LoadScene("Titulo");
+    }
+
+    private IEnumerator Perder()
+    {
+        _audio.clip = clipPerder;
+        _audio.Play();
+        yield return new WaitWhile(() => _audio.isPlaying);
+        Scene escena = SceneManager.GetActiveScene();
+        Debug.Log(escena.name);
+        SceneManager.LoadScene(escena.name);
     }
 
     // Update is called once per frame
@@ -78,6 +104,14 @@ public class Character : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
             _rigidbody.AddForce(Vector2.up * jumpForce * 100f, ForceMode2D.Force);
+            _audio.Play();
         }
+        /*else
+        {
+            if (Input.GetButtonUp("Jump"))
+            {
+                _audio.Stop();
+            }
+        }*/
     }
 }
