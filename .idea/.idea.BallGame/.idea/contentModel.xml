@@ -1,14 +1,428 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\informatica\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\informatica\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_BallGame.1016230344.00" t="ExcludeRecursive" />
-    <e p="C:\Users\informatica\Documents\BallGame" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="StansAssets" t="Include">
+            <e p="Foundation" t="Include">
+              <e p="API" t="Include">
+                <e p="Async" t="Include">
+                  <e p="SA_AsyncLoader.cs" t="Include" />
+                  <e p="SA_Coroutine.cs" t="Include" />
+                  <e p="SA_SceneManager.cs" t="Include" />
+                </e>
+                <e p="Config" t="Include">
+                  <e p="PluginVersion.cs" t="Include" />
+                  <e p="PluginVersionHandler.cs" t="Include" />
+                  <e p="SA_Config.cs" t="Include" />
+                </e>
+                <e p="Cryptography" t="Include">
+                  <e p="SA_HMAC.cs" t="Include" />
+                </e>
+                <e p="Effetcs" t="Include">
+                  <e p="Animations" t="Include">
+                    <e p="Tween" t="Include">
+                      <e p="Enums" t="Include">
+                        <e p="SA_EaseType.cs" t="Include" />
+                      </e>
+                      <e p="Models" t="Include">
+                        <e p="SA_ValuesTween.cs" t="Include" />
+                      </e>
+                      <e p="Pixelplacement" t="Include">
+                        <e p="iTween" t="Include">
+                          <e p="SA_iTween.cs" t="Include" />
+                        </e>
+                      </e>
+                    </e>
+                  </e>
+                </e>
+                <e p="Events" t="Include">
+                  <e p="SA_Event.cs" t="Include" />
+                  <e p="SA_iEvent.cs" t="Include" />
+                  <e p="SA_iSafeEvent.cs" t="Include" />
+                  <e p="SA_MonoEvents.cs" t="Include" />
+                </e>
+                <e p="Localization" t="Include">
+                  <e p="Resources" t="Include">
+                    <e p="iso_languages.txt" t="Include" />
+                  </e>
+                  <e p="Scripts" t="Include">
+                    <e p="SA_ISOLanguage.cs" t="Include" />
+                    <e p="SA_ISOLanguagesList.cs" t="Include" />
+                    <e p="SA_LanguagesUtil.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Patterns" t="Include">
+                  <e p="SA_ClosedList.cs" t="Include" />
+                  <e p="SA_iClosedList.cs" t="Include" />
+                  <e p="SA_NonMonoSingleton.cs" t="Include" />
+                  <e p="SA_SceneSingleton.cs" t="Include" />
+                  <e p="SA_ScriptableSettings.cs" t="Include" />
+                  <e p="SA_ScriptableSingleton.cs" t="Include" />
+                  <e p="SA_ScriptableSingletonEditor.cs" t="Include" />
+                  <e p="SA_Singleton.cs" t="Include" />
+                  <e p="SA_SingletonePrefab.cs" t="Include" />
+                  <e p="SA_SingletonService.cs" t="Include" />
+                </e>
+                <e p="Templates" t="Include">
+                  <e p="SA_Error.cs" t="Include" />
+                  <e p="SA_Result.cs" t="Include" />
+                </e>
+                <e p="Threading" t="Include">
+                  <e p="SA_MainThreadDispatcher.cs" t="Include" />
+                </e>
+                <e p="Time" t="Include">
+                  <e p="SA_Rfc3339_Time.cs" t="Include" />
+                  <e p="SA_Time.cs" t="Include" />
+                  <e p="SA_Unix_Time.cs" t="Include" />
+                </e>
+                <e p="Utilities" t="Include">
+                  <e p="SA_EnumUtil.cs" t="Include" />
+                  <e p="SA_FilesUtil.cs" t="Include" />
+                  <e p="SA_IconManager.cs" t="Include" />
+                  <e p="SA_IdFactory.cs" t="Include" />
+                  <e p="SA_PathUtil.cs" t="Include" />
+                  <e p="SA_Plugins.cs" t="Include" />
+                  <e p="SA_Reflection.cs" t="Include" />
+                  <e p="SA_ScreenUtil.cs" t="Include" />
+                  <e p="SA_StringUtil.cs" t="Include" />
+                  <e p="SA_VersionsManager.cs" t="Include" />
+                </e>
+                <e p="UtilitiesEditor" t="Include">
+                  <e p="SA_AssetDatabase.cs" t="Include" />
+                  <e p="SA_EditorUtility.cs" t="Include" />
+                </e>
+              </e>
+              <e p="APIModules" t="Include">
+                <e p="Public" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="AssetsManagment" t="Include">
+                      <e p="SA_EditorAssets.cs" t="Include" />
+                      <e p="SA_EditorDefines.cs" t="Include" />
+                      <e p="SA_EditorStyles.cs" t="Include" />
+                      <e p="SA_FilesBrowser.cs" t="Include" />
+                      <e p="SA_OS.cs" t="Include" />
+                      <e p="SA_PackageManager.cs" t="Include" />
+                      <e p="SA_PluginFirstInstallInfo.cs" t="Include" />
+                      <e p="SA_PluginInstallationProcessor.cs" t="Include" />
+                      <e p="SA_PluginsEditor.cs" t="Include" />
+                      <e p="SA_PluginTools.cs" t="Include" />
+                    </e>
+                    <e p="Components" t="Include">
+                      <e p="Abstract" t="Include">
+                        <e p="SA_GUILayoutElement.cs" t="Include" />
+                      </e>
+                      <e p="Controls" t="Include">
+                        <e p="SA_HyperButton.cs" t="Include" />
+                        <e p="SA_HyperButtonToolbar.cs" t="Include" />
+                        <e p="SA_HyperLabel.cs" t="Include" />
+                      </e>
+                      <e p="Inspectors" t="Include">
+                        <e p="SA_PluginSettingsInspector.cs" t="Include" />
+                      </e>
+                      <e p="Interfaces" t="Include">
+                        <e p="SA_iGUIElement.cs" t="Include" />
+                        <e p="SA_iGUILayoutElement.cs" t="Include" />
+                        <e p="SA_iLayoutElement.cs" t="Include" />
+                      </e>
+                      <e p="Windows" t="Include">
+                        <e p="Disposable" t="Include">
+                          <e p="SA_H2WindowBlockWithSpace.cs" t="Include" />
+                          <e p="SA_WindowBlockWithIndent.cs" t="Include" />
+                          <e p="SA_WindowBlockWithSpace.cs" t="Include" />
+                        </e>
+                        <e p="Layouts" t="Include">
+                          <e p="SA_AnimatedFoldoutBlock.cs" t="Include" />
+                          <e p="SA_CollapsableWindowBlockLayout.cs" t="Include" />
+                        </e>
+                        <e p="PluginsSettings" t="Include">
+                          <e p="SA_FeatureUrl.cs" t="Include" />
+                          <e p="SA_iAPIResolver.cs" t="Include" />
+                          <e p="SA_PluginAboutLayout.cs" t="Include" />
+                          <e p="SA_PluginActiveTextLink.cs" t="Include" />
+                          <e p="SA_PluginSettingsWindow.cs" t="Include" />
+                          <e p="SA_PluginSettingsWindowStyles.cs" t="Include" />
+                          <e p="SA_ServiceLayout.cs" t="Include" />
+                          <e p="SA_ServicesTab.cs" t="Include" />
+                        </e>
+                        <e p="Preferences" t="Include">
+                          <e p="SA_PreferencesWindow.cs" t="Include" />
+                          <e p="SA_PreferencesWindowSection.cs" t="Include" />
+                        </e>
+                      </e>
+                    </e>
+                    <e p="Disposable" t="Include">
+                      <e p="SA_GuiBeginArea.cs" t="Include" />
+                      <e p="SA_GuiBeginHorizontal.cs" t="Include" />
+                      <e p="SA_GuiBeginScrollView.cs" t="Include" />
+                      <e p="SA_GuiBeginVertical.cs" t="Include" />
+                      <e p="SA_GuiChangeColor.cs" t="Include" />
+                      <e p="SA_GuiChangeContentColor.cs" t="Include" />
+                      <e p="SA_GuiEnable.cs" t="Include" />
+                      <e p="SA_GuiHorizontalSpace.cs" t="Include" />
+                      <e p="SA_GuiHorizontalSpaceIgnoreIndent.cs" t="Include" />
+                      <e p="SA_GuiIndentLevel.cs" t="Include" />
+                    </e>
+                    <e p="Layout" t="Include">
+                      <e p="LayoutComponents" t="Include">
+                        <e p="SA_ReorderablList.cs" t="Include" />
+                        <e p="SA_StyledToggle.cs" t="Include" />
+                        <e p="SA_Toolbar.cs" t="Include" />
+                      </e>
+                      <e p="SA_CompanyGUILayout.cs" t="Include" />
+                      <e p="SA_EditorGUILayout.cs" t="Include" />
+                      <e p="SA_Skin.cs" t="Include" />
+                      <e p="SplitView" t="Include">
+                        <e p="Core" t="Include">
+                          <e p="SA_InputEvent.cs" t="Include" />
+                          <e p="SA_SimpleGUIView.cs" t="Include" />
+                          <e p="SA_SplitView.cs" t="Include" />
+                          <e p="SA_SplitViewPanel.cs" t="Include" />
+                          <e p="SA_ViewState.cs" t="Include" />
+                        </e>
+                        <e p="Examples" t="Include">
+                          <e p="SA_ExampleSplitViewsWindow.cs" t="Include" />
+                        </e>
+                      </e>
+                    </e>
+                    <e p="Models" t="Include">
+                      <e p="SA_EditorWebRequest.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Extensions" t="Include">
+                    <e p="CSharpExtensions" t="Include">
+                      <e p="SA_Extensions_String.cs" t="Include" />
+                      <e p="SA_Extensions_Uri.cs" t="Include" />
+                    </e>
+                    <e p="UnityExtensions" t="Include">
+                      <e p="SA_Extensions_Bounds.cs" t="Include" />
+                      <e p="SA_Extensions_GameObject.cs" t="Include" />
+                      <e p="SA_Extensions_Material.cs" t="Include" />
+                      <e p="SA_Extensions_RectTransform.cs" t="Include" />
+                      <e p="SA_Extensions_Renderer.cs" t="Include" />
+                      <e p="SA_Extensions_Scene.cs" t="Include" />
+                      <e p="SA_Extensions_Texture2D.cs" t="Include" />
+                      <e p="SA_Extensions_Transform.cs" t="Include" />
+                      <e p="SA_Extensions_Vector3.cs" t="Include" />
+                    </e>
+                    <e p="UtilityModels" t="Include">
+                      <e p="SA_VertexX.cs" t="Include" />
+                      <e p="SA_VertexY.cs" t="Include" />
+                      <e p="SA_VertexZ.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Network" t="Include">
+                    <e p="Web" t="Include">
+                      <e p="Utils" t="Include">
+                        <e p="SA_CachedRequestsFactory.cs" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                  <e p="PropertyDrawers" t="Include">
+                    <e p="Attributes" t="Include">
+                      <e p="SA_PD_ConditionalAttribute.cs" t="Include" />
+                      <e p="SA_PD_HelpBoxAttribute.cs" t="Include" />
+                      <e p="SA_PD_IndentLevelAttribute.cs" t="Include" />
+                      <e p="SA_PD_LabelWithIconAttribute.cs" t="Include" />
+                      <e p="SA_PD_MinMaxSliderAttribute.cs" t="Include" />
+                      <e p="SA_PD_SimpleSliderAttribute.cs" t="Include" />
+                    </e>
+                    <e p="Decorators" t="Include">
+                      <e p="SA_PD_HeaderDecoratorAttribute.cs" t="Include" />
+                      <e p="SA_PD_HelpboxDecoratorAttribute.cs" t="Include" />
+                      <e p="SA_PD_PRInsertionDecoratorAttribute.cs" t="Include" />
+                      <e p="SA_PD_StandartInsertionDecoratorAttribute.cs" t="Include" />
+                      <e p="SA_PD_ThinInsertionDecoratorAttribute.cs" t="Include" />
+                    </e>
+                    <e p="Editor" t="Include">
+                      <e p="AttributesDrawers" t="Include">
+                        <e p="SA_PD_ConditionalDrawer.cs" t="Include" />
+                        <e p="SA_PD_HelpBoxDrawer.cs" t="Include" />
+                        <e p="SA_PD_IndentLevelDrawer.cs" t="Include" />
+                        <e p="SA_PD_LabelWithIconDrawer.cs" t="Include" />
+                        <e p="SA_PD_MinMaxSliderDrawer.cs" t="Include" />
+                        <e p="SA_PD_SimpleSliderDrawer.cs" t="Include" />
+                      </e>
+                      <e p="DecoratorsDrawers" t="Include">
+                        <e p="SA_PD_HeaderDecorator.cs" t="Include" />
+                        <e p="SA_PD_HelpBoxDecorator.cs" t="Include" />
+                        <e p="SA_PD_PRInsertionDecorator.cs" t="Include" />
+                        <e p="SA_PD_StandartInsertionDecorator.cs" t="Include" />
+                        <e p="SA_PD_ThinInsertionDecorator.cs" t="Include" />
+                      </e>
+                    </e>
+                    <e p="Example" t="Include">
+                      <e p="SA_ESC_PropertyDrawerExample.cs" t="Include" />
+                    </e>
+                    <e p="Utilities" t="Include">
+                      <e p="SA_PD_EditorIcons.cs" t="Include" />
+                      <e p="SA_PD_MessageType.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Tests" t="Include">
+                    <e p="Base" t="Include">
+                      <e p="SA_BaseTest.cs" t="Include" />
+                    </e>
+                    <e p="Editor" t="Include">
+                      <e p="Inspectors" t="Include">
+                        <e p="SA_TestManagerInspector.cs" t="Include" />
+                        <e p="SA_TestSuiteConfigInspector.cs" t="Include" />
+                      </e>
+                    </e>
+                    <e p="ExampleTests" t="Include">
+                      <e p="SA_AlwaysNegativeTest.cs" t="Include" />
+                      <e p="SA_AlwaysPositiveTest.cs" t="Include" />
+                      <e p="SA_ThrowExceptionTest.cs" t="Include" />
+                    </e>
+                    <e p="Models" t="Include">
+                      <e p="SA_TestConfig.cs" t="Include" />
+                      <e p="SA_TestGroupConfig.cs" t="Include" />
+                      <e p="SA_TestResult.cs" t="Include" />
+                      <e p="SA_TestSuiteConfig.cs" t="Include" />
+                    </e>
+                    <e p="SA_TestsManager.cs" t="Include" />
+                    <e p="TestRunners" t="Include">
+                      <e p="SA_GroupTestRunner.cs" t="Include" />
+                      <e p="SA_SingleTestRunner.cs" t="Include" />
+                    </e>
+                    <e p="UI" t="Include">
+                      <e p="SA_TestResultUI.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="ThirdParty" t="Include">
+                  <e p="Rotorz" t="Include">
+                    <e p="ClassTypeReference" t="Include">
+                      <e p="ClassTypeConstraintAttribute.cs" t="Include" />
+                      <e p="ClassTypeReference.cs" t="Include" />
+                      <e p="Editor" t="Include">
+                        <e p="ClassTypeReferencePropertyDrawer.cs" t="Include" />
+                      </e>
+                    </e>
+                    <e p="Reorderable List Field" t="Include">
+                      <e p="Editor" t="Include">
+                        <e p="Element Adder Menu" t="Include">
+                          <e p="ElementAdderMenuBuilder.cs" t="Include" />
+                          <e p="ElementAdderMenuCommandAttribute.cs" t="Include" />
+                          <e p="ElementAdderMeta.cs" t="Include" />
+                          <e p="GenericElementAdderMenu.cs" t="Include" />
+                          <e p="GenericElementAdderMenuBuilder.cs" t="Include" />
+                          <e p="IElementAdder.cs" t="Include" />
+                          <e p="IElementAdderMenu.cs" t="Include" />
+                          <e p="IElementAdderMenuBuilder.cs" t="Include" />
+                          <e p="IElementAdderMenuCommand.cs" t="Include" />
+                        </e>
+                        <e p="GenericListAdaptor.cs" t="Include" />
+                        <e p="Internal" t="Include">
+                          <e p="GUIHelper.cs" t="Include" />
+                          <e p="ReorderableListResources.cs" t="Include" />
+                          <e p="SerializedPropertyUtility.cs" t="Include" />
+                        </e>
+                        <e p="IReorderableListAdaptor.cs" t="Include" />
+                        <e p="IReorderableListDropTarget.cs" t="Include" />
+                        <e p="ReorderableListControl.cs" t="Include" />
+                        <e p="ReorderableListEvents.cs" t="Include" />
+                        <e p="ReorderableListFlags.cs" t="Include" />
+                        <e p="ReorderableListGUI.cs" t="Include" />
+                        <e p="ReorderableListStyles.cs" t="Include" />
+                        <e p="SerializedPropertyAdaptor.cs" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Productivity" t="Include">
+              <e p="Console" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="Core" t="Include">
+                    <e p="UCL_ConsoleUtil.cs" t="Include" />
+                    <e p="UCL_LogEntries.cs" t="Include" />
+                    <e p="UCL_Settings.cs" t="Include" />
+                  </e>
+                  <e p="Enums" t="Include">
+                    <e p="UCL_ConsoleFlags.cs" t="Include" />
+                    <e p="UCL_LogMode.cs" t="Include" />
+                  </e>
+                  <e p="Menu" t="Include">
+                    <e p="UCL_EditorMenu.cs" t="Include" />
+                  </e>
+                  <e p="Models" t="Include">
+                    <e p="UCL_ConsoleTag.cs" t="Include" />
+                    <e p="UCL_ConsoleWindowState.cs" t="Include" />
+                    <e p="UCL_FilePointer.cs" t="Include" />
+                    <e p="UCL_LogInfo.cs" t="Include" />
+                    <e p="UCL_LogStackLine.cs" t="Include" />
+                  </e>
+                  <e p="Windows" t="Include">
+                    <e p="ConsoleWindow" t="Include">
+                      <e p="Main" t="Include">
+                        <e p="UCL_ConsoleWindow.cs" t="Include" />
+                      </e>
+                      <e p="TreeView" t="Include">
+                        <e p="UCL_StackTreeView.cs" t="Include" />
+                        <e p="UCL_StackTreeViewItem.cs" t="Include" />
+                        <e p="UCL_TreeView.cs" t="Include" />
+                        <e p="UCL_TreeViewItem.cs" t="Include" />
+                      </e>
+                      <e p="Views" t="Include">
+                        <e p="UCL_LogsView.cs" t="Include" />
+                        <e p="UCL_StackView.cs" t="Include" />
+                      </e>
+                    </e>
+                    <e p="PreferencesWindow" t="Include">
+                      <e p="Main" t="Include">
+                        <e p="UCL_ConsolePreferencesWindow.cs" t="Include" />
+                      </e>
+                      <e p="Tabs" t="Include">
+                        <e p="UCL_AboutTab.cs" t="Include" />
+                        <e p="UCL_CurrentWindowTab.cs" t="Include" />
+                        <e p="UCL_IgnoreTab.cs" t="Include" />
+                        <e p="UCL_PlatfromsWindowTab.cs" t="Include" />
+                        <e p="UCL_TagsTab.cs" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
+                <e p="Examples" t="Include">
+                  <e p="UCL_NativeUseExample.cs" t="Include" />
+                </e>
+                <e p="Logger" t="Include">
+                  <e p="Core" t="Include">
+                    <e p="UCL_Logger.cs" t="Include" />
+                    <e p="UCL_PlatfromsLogSettings.cs" t="Include" />
+                  </e>
+                  <e p="Enums" t="Include">
+                    <e p="UCL_DefaultTags.cs" t="Include" />
+                  </e>
+                  <e p="Models" t="Include">
+                    <e p="UCL_iLogMessageReceiver.cs" t="Include" />
+                    <e p="UCL_LogHandler.cs" t="Include" />
+                    <e p="UCL_UnityLog.cs" t="Include" />
+                  </e>
+                  <e p="Platfroms" t="Include">
+                    <e p="iOS" t="Include">
+                      <e p="UnityScripts" t="Include">
+                        <e p="UCL_iOS_Bridge.cs" t="Include" />
+                        <e p="UCL_iOS_LogHandler.cs" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Third-PartyNotices.txt" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="AutoHide.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="Character.cs" t="Include" />
+          <e p="Navigator.cs" t="Include" />
           <e p="Obstacle.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
@@ -41,12 +455,11 @@
         </e>
       </e>
       <e p="BallGame.sln" t="IncludeFlat" />
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_BallGame.742710772.00" t="ExcludeRecursive" />
   </component>
 </project>

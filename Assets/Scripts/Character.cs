@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Character : MonoBehaviour
@@ -42,6 +44,27 @@ public class Character : MonoBehaviour
         {
             isOnGround = false;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Hider"))
+        {
+            var obj = GameObject.FindWithTag("Texto");
+            if (obj != null)
+            {
+                obj.SetActive(false);
+            }
+        }
+        else if (other.CompareTag("KillZone"))
+        {
+            Scene escena = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(escena.name);
+        }
+        else if (other.CompareTag("WinZone"))
+        {
+            SceneManager.LoadScene("Titulo");
+        }   
     }
 
     // Update is called once per frame

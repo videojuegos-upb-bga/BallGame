@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77a9aac359b85b4fa087829358c7b39, type: 3}
+  m_Name: UCL_Settings
+  m_EditorClassIdentifier: 
+  LastVersionCode: 
+  IgnoredWrapperClasses: []
+  m_tags:
+  - Name: error
+    Icon: {fileID: 8521385900707336378, guid: 0000000000000000d000000000000000, type: 0}
+  - Name: warning
+    Icon: {fileID: -4166112459083603383, guid: 0000000000000000d000000000000000, type: 0}
+  - Name: message
+    Icon: {fileID: 786882066299589297, guid: 0000000000000000d000000000000000, type: 0}
+  - Name: network
+    Icon: {fileID: 2800000, guid: aab7b6bfeb577490b88b6ae13bfe00f6, type: 3}
+  - Name: gameplay
+    Icon: {fileID: 2800000, guid: 496596c12ffd54da9993afcb6f89ff0f, type: 3}
+  - Name: service
+    Icon: {fileID: 2800000, guid: f50825b3eeeca45bc9f671f6b1f14d68, type: 3}
+  - Name: cloud
+    Icon: {fileID: 2800000, guid: 7a3fdb73ce26f42b6903d29215f96360, type: 3}
+  - Name: in
+    Icon: {fileID: 2800000, guid: 5aa35f9d76a21465ba1d05755f1ef718, type: 3}
+  - Name: out
+    Icon: {fileID: 2800000, guid: 99c10785ba5f143e1b51ee0dbc4ea923, type: 3}
