@@ -1,5 +1,4 @@
 # BallGame
 Ball Game 2D en Unity
 
-Hola
-
+Esto hace parte del intersemestral en desarrollo de videojuegos.
